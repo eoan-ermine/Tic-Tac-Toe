@@ -15,6 +15,7 @@ std::ostream& operator<<(std::ostream& stream, const fieldState& lhs) {
             stream << "O";
             break;
     }
+    return stream;
 }
 
 TicTacToe::TicTacToe() : countOfRows(3), countOfColumns(3), movesCounter(0), over(false) {
